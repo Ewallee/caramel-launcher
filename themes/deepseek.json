@@ -1,0 +1,75 @@
+// Caramel Launcher theme: DeepSeek, the deep sea: black water, royal blue, gold and turquoise.
+// Colors: #rrggbb or #aarrggbb. A missing line uses the built-in color.
+// Changes apply as soon as you save.
+{
+  "Name": "DeepSeek",                           // theme name in Settings
+  "Variant": "Dark",                            // Light or Dark: text, checkboxes, lists and tooltips of standard controls
+
+  // Backgrounds
+  "WindowBackground": "#06080f",                // window
+  "RailBackground": "#03050a",                  // title bar, side menu, text fields
+  "SurfaceBackground": "#0b1020",               // cards
+  "SurfaceBorder": "#1a2548",                   // card and field borders
+  "PanelBackground": "#111831",                 // dark buttons, panels
+  "PanelHover": "#161f40",                      // dark button under the mouse
+  "PanelBorder": "#22315e",                     // dark button border
+  "InputHoverBorder": "#2d407c",                // text field border under the mouse
+  "ActiveBackground": "#0e1c45",                // card of the active game version
+  "WarningBackground": "#1f1a0c",               // warning box
+  "WarningBorder": "#6b5a2e",                   // warning box border
+
+  // Text
+  "TextPrimary": "#e4e9f2",                     // normal text
+  "TextTitle": "#f1f4f9",                       // headings, names
+  "TextSection": "#d9c28a",                     // section labels, dark button labels
+  "TextSecondary": "#9aa4ba",                   // descriptions
+  "TextMuted": "#6c7690",                       // mod size and date, status bar
+  "TextDim": "#4d5569",                         // faint labels
+  "TextFaint": "#393f50",                       // faintest labels
+  "TextBright": "#f7f4ef",                      // text on colored buttons
+
+  // Accents
+  "AccentGold": "#c8a058",                      // menu icons, Legacy, links, search
+  "AccentGoldBright": "#e0c068",                // favorite star, dark button icons
+  "AccentPurple": "#1850a0",                    // main action button
+  "AccentPurpleHover": "#1d60bf",               // main action button under the mouse, progress bars
+  "AccentEnhanced": "#88d8c8",                  // Enhanced icon
+  "NavText": "#c5cce0",                         // menu items
+  "NavTextActive": "#f1f4f9",                   // selected menu item
+  "NavHover": "#050d19",                        // menu item under the mouse
+  "NavActive": "#08162b",                       // selected menu item background
+  "NavActiveBorder": "#c8a058",                 // selected menu item stripe
+
+  // Green, red, blue
+  "AccentGreen": "#4fb8a6",                     // Play, active version, checkboxes
+  "AccentGreenLight": "#88d8c8",                // green under the mouse, done messages
+  "GoButton": "#1f8f80",                        // green Play button
+  "GoButtonHover": "#26a392",                   // green Play button under the mouse
+  "GreenBadge": "#162f30",                      // loaded badge
+  "Danger": "#e0574a",                          // remove, delete
+  "DangerHover": "#da3727",                     // window close button under the mouse
+  "DropTarget": "#5b9cf6",                      // drop place when dragging a mod
+
+  // Server tag filters
+  "FilterIncludeBackground": "#162f30",         // filter on
+  "FilterIncludeText": "#7bcabc",               // filter on, icon
+  "FilterIncludeHoverBackground": "#1d403f",    // filter on, under the mouse
+  "FilterIncludeHoverText": "#98d5cb",          // filter on, icon under the mouse
+  "FilterExcludeBackground": "#32181b",         // filter excluded
+  "FilterExcludeText": "#e77f76",               // filter excluded, icon
+  "FilterExcludeHoverBackground": "#472021",    // filter excluded, under the mouse
+  "FilterExcludeHoverText": "#eda098",          // filter excluded, icon under the mouse
+
+  // Light buttons
+  "LightButton": "#e8e6df",                     // light button
+  "LightButtonHover": "#eeede8",                // light button under the mouse
+  "LightButtonText": "#202020",                 // light button text
+  "KillButton": "#ad8413",                      // Kill process button
+  "KillButtonHover": "#947113",                 // Kill process button under the mouse
+
+  // Scrollbar
+  "ScrollBarThumbFill": "#403625",              // thumb
+  "ScrollBarThumbFillPointerOver": "#5d4c30",   // thumb under the mouse
+  "ScrollBarThumbFillPressed": "#7a633b",       // thumb while dragging
+  "ScrollBarTrackFill": "#03050a",              // track
+}
